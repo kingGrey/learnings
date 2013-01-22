@@ -1,0 +1,18 @@
+@CHARSET "ISO-8859-1";
+
+.styled-select select {
+   background: transparent;
+   width: 168px;
+   padding: 5px;
+   font-size: 12px;
+   line-height: 1;
+   border:1px solid #ccc;
+   border-radius: 0;
+   height: 34px;
+   }
+.space-bottom  {
+  margin-bottom:10px;
+}
+.space-top {
+	margin-top:10px;
+}
