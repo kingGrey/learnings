@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>CSS3 Tabs</title>
+
+<link rel="stylesheet" href="css/screen.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/button.css" type="text/css">  
+<link rel="stylesheet" href="css/selectBoxes.css" type="text/css">
+<!--[if IE]> <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> <![endif]-->
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+<script type="text/javascript" src="js/tabbed.layout.js"></script>
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.3.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.0-beta.1/jquery.mobile-1.3.0-beta.1.min.js"> </script>
+<body>
+
+	<header>
+		<h1>Intel Konnect</h1>
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="#tab1">About</a></li>
+			<li><a href="#tab2">Accounts</a></li>
+			<li><a href="#tab3">Matches</a></li>
+			<li><a href="#tab4">Settings</a></li>
+		</ul>
+	</nav>
+
+	<section class="tab" id="tab1">
+		<p>Section About</p>
+		<p>
+			<strong>Congratulation!</strong> - This application aims at connecting you to others with similar interests
+		</p>
+		<p>
+			<a
+				href="http://cssglobe.com/post/9579/styling-full-width-tabs-with-css3"
+				title="read more">back to the article</a>
+		</p>
+	</section>
+
+	<section class="tab" id="tab2">
+		<form>
+			<fieldset>
+				<legend>User WWID</legend>
+				<input type="number">
+				<a class="button shape-1 green effect-4" href="#"><span>Verify</span></a>
+			</fieldset>
+		</form>
+		<div class="space-bottom">
+			<div style="text-align:center;">
+				<figure>
+				    <img src="img/logo.png" width="100" height="100" ¬
+				        alt="A descriptive text of the image" />
+				    </center><figcaption>Oh nice!!</figcaption>
+				</figure>
+			</div>
+			<a class="button shape-1 green effect-4" href="#"><span>Set Profile Image</span></a>
+		</div>
+		<div class="styled-select">
+			<form>
+				<fieldset>
+					<legend>Interest Selection</legend>
+					<select>
+						<option>Select..</option>
+		      			<option>Soccer</option>
+		      			<option>Swimming</option>
+		      			<option>Sky diving</option>
+					</select>
+					<select>
+						<option>Select..</option>
+		      			<option>Base Ball</option>
+		      			<option>Reading</option>
+		      			<option>Running</option>
+					</select>
+					<select>
+						<option>Select..</option>
+		      			<option>Hacking</option>
+		      			<option>Armed Robbery</option>
+		      			<option>Biking</option>
+					</select><!-- <br><br> -->
+				</fieldset>
+			</form>
+		</div>
+		<div class="space-top">
+			<a class="button shape-1 green effect-4" href="#"><span>Update Profile</span></a>
+			<a class="button shape-1 green effect-4" href="#"><span>Modify Settings</span></a>
+		</div>
+	</section>
+
+	<section class="tab" id="tab3">
+		<div>
+		<!-- toaccess list: $("#mylist").append( $("<li>" + $("#inputbox").val() + "</li>") );  -->
+<!-- 			<ul id="mylist"> -->
+<!-- 				<li><a href="#"> <img src="./images/in.jpg"> -->
+<!-- 						<h1> -->
+<!-- 							<img src="./flags/in.gif"> Country Name : India -->
+<!-- 						</h1> -->
+<!-- 						<p>The Capital City of The Country India is New Delhi.</p></a></li> -->
+<!-- 			</ul> -->
+				<ul id="my_listview" data-role="listview" data-inset="true" data-filter="true" data-theme="c">
+				        <li><a href="spec.html">Acura</a></li>
+						<li><a href="#">Audi</a></li>
+						<li><a href="#">BMW</a></li>
+						<li><a href="#">Cadillac</a></li>
+						<li><a href="#">Ferrari</a></li>
+				</ul>
+		</div>
+	</section>
+
+	<section class="tab" id="tab4">
+	 	<h1>Red Delicious</h1>
+		<p>Section Settings</p>
+	</section>
+
+</body>
+</html>
+
